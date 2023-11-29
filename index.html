@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- FIM GOOGLE FONTS -->
+
+    <!--INICIO ICONS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--FINAL ICONS BOOTSTRAP-->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Currículo Digital</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/Design sem nome.png" alt="Logo do meu portifólio">
+                </a>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Curriculo</a></li>
+                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div><!--botão-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-circle"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Curriculo</a></li>
+                        <li><a href="#">Especialidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div><!--interface-->
+
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL <span>.</span></h1>
+                        <p>Com o firme desejo de me consolidar na área de programação, busco constantemente aprimorar
+                            minhas habilidades e conhecimentos. A paixão pela resolução de problemas e a criação de
+                            soluções inovadoras impulsiona meu comprometimento em me tornar um profissional sólido na
+                            indústria da programação. Com dedicação contínua, estou empenhado em contribuir
+                            significativamente para projetos desafiadores, expandindo minha experiência e crescendo de
+                            maneira sustentável nesta carreira dinâmica.</p>
+
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+                    <div class="img-topo-site">
+                        <img src="images/foto do meio.png" alt="Foto principal meio/tela">
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <SPAN>ESPECIALIDADES.</SPAN></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-file-earmark-code"></i>
+                        <h3>Java</h3>
+                        <p>Criações de pequenos projetos em java.</p>
+                    </div><!--Especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Loja online</h3>
+                        <p>Implementações fullstack para sites.</p>
+                    </div><!--Especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-bootstrap"></i>
+                        <h3>Mercado Livre</h3>
+                        <p>Vasto conhecimento do funcionamento desse marketplace na parte de vendas.</p>
+                    </div><!--Especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especialidades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img id="clickableImage" src="images/final do site foto.png" alt="Clickable Image"
+                            onclick="playSound()">
+                        <audio id="myAudio" src="audios/WhatsApp Ptt 2023-11-12 at 17.46.17.ogg"></audio>
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER,<span>SOU DENIS SIMÕES.</span></h2>
+                        <P>Sou um apaixonado desenvolvedor de software dedicado a transformar ideias inovadoras em
+                            realidade digital. Minha jornada na programação começou com uma paixão inabalável por
+                            resolver desafios complexos, e desde então, venho aprimorando minhas habilidades em diversas
+                            linguagens, incluindo JavaScript, Java, MySQL, tendo também contato básico com várias outras
+                            linguagens. Com uma mentalidade orientada para resultados e uma abordagem criativa, tenho a
+                            habilidade de criar soluções robustas e eficientes.</P>
+                        <P>Meu portfólio reflete não apenas meu domínio técnico, mas também meu comprometimento em
+                            buscar a excelência em cada projeto. Estou ansioso para contribuir para o mundo da
+                            tecnologia, enfrentando novos desafios e continuando a evoluir como um desenvolvedor de
+                            destaque.</P>
+                        <div class="btn-social">
+                            <a href="https://github.com/DenisVousin"><button></a><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.instagram.com/denisvousin/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/denis-sim%C3%B5es-285817235/"><button><i class="bi bi-linkedin"></i></button>
+                                <a href="https://www.youtube.com/@PlanetaCurioso0/videos"><button><i class="bi bi-youtube"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="portifolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <SPAN>PORTIFÓLIO.</SPAN></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/1.png);">
+                        <div class="overlay">Noleme</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/2.png);">
+                        <div class="overlay">Ship2U</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/3.png);">
+                        <div class="overlay">Mercado Livre</div>
+                    </div>
+                </div>
+            </div><!--interface-->
+        </section><!--portifolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <SPAN>COMIGO.</SPAN></h2>
+
+                <form meaction="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail" required>
+                    <input type="text" name="" id="" placeholder="Seu celular">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/Design sem nome.png" alt="">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://github.com/DenisVousin"><button></a><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.instagram.com/denisvousin/"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/denis-sim%C3%B5es-285817235/"><button><i class="bi bi-linkedin"></i></button>
+                            <a href="https://www.youtube.com/@PlanetaCurioso0/videos"><button><i class="bi bi-youtube"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-arrow-down-fill"><a
+                            href="maitlo: vousindenis@gmail.com">vousindenis@gmail.com</a></i></p>
+            </div><!--line-footer-->
+
+        </div><!--interface-->
+    </footer>
+</body>
+
+</html>
