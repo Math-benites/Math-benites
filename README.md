@@ -1,20 +1,6 @@
-<!-- HEADER -->
-<div align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:7F00FF,100:E100FF&height=140&section=header"
-  />
-</div>
+<!-- HEADER --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&animation=fadeIn&color=0:7F00FF,50:9B5DE5,100:E100FF&height=150&section=header" /> </div>
 
-<!-- STACK OVERVIEW -->
-<div align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=math-benites&layout=compact&langs_count=8&theme=dracula&hide_border=true&card_width=420"
-    height="160"
-  />
-</div>
-
-<br/>
-
+<br>
 <!-- SOCIAL -->
 <div align="center">
   <a href="https://www.linkedin.com/in/matheus-benites/" target="_blank">
@@ -23,6 +9,26 @@
     />
   </a>
 </div>
+<!-- TITLE / ROLE -->
+<div align="center">
+  <img
+    src="https://img.shields.io/badge/Network%20%26%20Infrastructure%20Engineer-Senior-6A1B9A?style=for-the-badge"
+  />
+</div>
+</br>
+
+<br/>
+
+<!-- DIVIDER -->
+<div align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=rect&color=0:9B5DE5,100:E100FF&height=4"
+  />
+</div>
+
+<br/>
+
+<br/>
 
 <br/>
 
@@ -108,6 +114,16 @@
 <div align="center">
   <img
     src="https://streak-stats.demolab.com?user=math-benites&theme=dracula&hide_border=true"
+    height="160"
+  />
+</div>
+
+<br/>
+
+<!-- STACK OVERVIEW -->
+<div align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=math-benites&layout=compact&langs_count=8&theme=dracula&hide_border=true&card_width=420"
     height="160"
   />
 </div>
